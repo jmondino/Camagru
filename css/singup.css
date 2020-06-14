@@ -1,0 +1,183 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #181715;
+}
+
+.topnav {
+  background-color: #7c96b9;
+  overflow: hidden;
+}
+
+.logo {
+  text-align: center;
+}
+
+.img {
+  width: 200px;
+  height: auto;
+}
+
+.form-sub {
+  margin-top: 30px;
+  padding: 0;
+  position: relative;
+  overflow: visible;
+  background-color: rgba(255, 255, 255,0.15);
+  width: 100%;
+  height: auto;
+}
+
+.content-sub {
+  min-height: 200px;
+  padding: 10px;
+  width: auto;
+  height: auto;
+}
+
+.error_login {
+  display: none;
+  color: #e4442c;
+}
+
+.error_mail {
+  display: none;
+  color: #e4442c;
+}
+
+.header {
+  padding: 10px;
+  background-color: #537791;
+}
+
+.title {
+  text-shadow: 1px 1px 1px #888;
+  text-align: center;
+  font-size: 25px;
+  padding: 5px;
+  position: relative;
+  color: white;
+  text-transform: uppercase;
+}
+
+.img2 {
+  width: 100%;
+  height: auto;
+}
+
+.row {
+  background-color: white;
+  padding: 10px;
+}
+
+.champ {
+  margin-top: 5px;
+  height: 2.8rem;
+  width: 94%;
+  border: 1px solid #c7c3b4;
+  font-size: 15px;
+}
+
+.day {
+  width: 100%;
+}
+
+.select {
+  height: 2.8rem;
+  border: 1px solid #c7c3b4;
+  font-size: 15px;
+  width: 32%
+}
+
+.elements {
+  padding: 20px 0px;
+}
+
+.text {
+  font-size: 15px;
+  text-align: left;
+}
+
+.each {
+  margin-top: 30px;
+}
+
+.terminate {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.button {
+  background-color: #537791;
+  text-shadow: 1px 1px 1px #888;
+  color: white;
+  transition: 0.3s;
+  padding: 1.5rem 1.5rem;
+  border-radius: 3px;
+  position: relative;
+  font-size: 20px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.button:hover {
+  box-shadow: inset 0 0 100px 100px rgba(255, 255, 255, 0.3);
+  cursor: pointer;
+}
+
+.valid {
+  color: green;
+}
+
+.valid:before {
+  position: relative;
+  left: -10px;
+  content: "✔";
+}
+
+.invalid {
+  color: #e4442c;
+}
+
+.invalid:before {
+  position: relative;
+  left: -10px;
+  content: "✖";
+}
+
+#message {
+  display: none;
+  background: #f1f1f1;
+  color: #000;
+  position: relative;
+  padding: 20px;
+  margin-top: 10px;
+}
+
+footer p {
+  color: white;
+  text-align: right;
+}
+
+@media only screen and (min-width: 919px) {
+
+.form-sub {
+  width: 919px;
+  height: auto;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+}
+
+@media only screen and (min-width: 1100px) {
+
+.img2 {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  width: 100%;
+  height: auto;
+}
+
+}
