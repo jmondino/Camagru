@@ -11,7 +11,7 @@ Edit the path of `DocumentRoot` and `<Directory>` to `(.../)Camagru` in files :
 `(.../)mamp/apache2/conf/bitnami/bitnami.conf`  
 `(.../)mamp/apache2/conf/httpd.conf`  
   
-Edit variables `$port`, `$dbname`, `$user`, `$paswd` to your own phpmyadmin configuration in :  
+Edit variables `$user`, `$paswd` to your own phpmyadmin configuration in :  
 `Camagru/config/database.php`  
 
 
